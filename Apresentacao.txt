@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-Meu nome é Marcelo Victor e tenho 26 anos.
-
-Normalmente jogo volêi de praia pela manhã, vou trabalhar, após largar mando um treino de jiu jitsu e corro pra faculdade. 
-=======
-Meu nome é marcelo victor e tenho 26 anos
->>>>>>> ff2319136f3f5445ffa9d70ebc87c6ca9f9cec40

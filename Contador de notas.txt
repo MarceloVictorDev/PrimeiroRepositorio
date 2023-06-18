@@ -1,0 +1,13 @@
+//Exercício 02 - Contador de notas
+var valor = parseInt(prompt('Digite um valor inteiro de reais'))
+var notas100 = parseInt(valor/100) //quantidade de notas 
+var sobra = valor - (notas100 * 100)
+var notas50 = parseInt(sobra / 50)
+var sobra2 = valor - (notas50 * 50) - (notas100 * 100)
+var notas10 = parseInt(sobra2 / 10)
+var sobra3 = valor - (notas10 * 10) - (notas50 * 50) - (notas100 * 100)
+var notas5 = parseInt(sobra3 / 5)
+var sobra4 = valor - (notas5 * 5) - (notas10 * 10) - (notas50 * 50) - (notas100 * 100)
+var notas1 = parseInt(sobra4 / 1)
+var sobra5 = valor - (notas1 * 1) - (notas5 * 5) - (notas10 * 10) - (notas50 * 50) - (notas100 * 100)
+console.log('Valor inserido: '+valor+" = "+notas100+" nota(s) de 100 "+notas50+' nota(s) de 50 '+notas10+" notas de 10 "+notas5+' notas de 5 '+notas1+" notas de 1.")

@@ -1,0 +1,27 @@
+//Caixa Eletrônico
+var nomecliente = prompt('Olá, por favor, digite seu nome.')
+var saldoinicial = parseInt(prompt('Olá '+ nomecliente +'! Por favor, digite seu saldo inicial'))
+var operacao = parseInt(prompt('Digite 1 para depósito e 2 para saque'))
+var saldoatual = 0
+
+if(operacao == 1){
+var dinheiro = parseInt(prompt('Digite o valor que deseja depositar.'))
+saldoatual = (saldoinicial + dinheiro)
+console.log('Seu saldo atual é: '+ saldoatual)
+}
+
+if(operacao == 2){
+  dinheiro = parseInt(prompt('Digite o valor que deseja sacar.'))
+    if(saldoinicial < dinheiro){
+    console.log('Erro. Você só tem R$ '+ saldoinicial +' disponível para saque.')
+    }
+  else{
+    saldoatual = (saldoinicial-dinheiro)
+  console.log('Transação efetuada com sucesso. Seu novo saldo é:'+saldoatual)
+      }
+}
+else{
+  console.log('Por favor, inicie novamente e digite uma opção válida. 1 para depósito e 2 para saque')
+  }
+
+

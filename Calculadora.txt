@@ -1,0 +1,15 @@
+var nome1 = prompt("Digite seu nome")
+var operacaoMatematica = prompt('Oi '+(nome1)+',boa noite! Sou sua nova calculadora inteligente. Por favor, insira 1 para soma, 2 para subtração, 3 para multiplicação e 4 para divisão')
+var numero1 = parseInt(prompt('Insira o primeiro número'))
+var numero2 = parseInt(prompt('Insira o segundo número'))
+if(operacaoMatematica == 1){
+  prompt('O resultado da sua soma é '+(numero1 + numero2))}
+if(operacaoMatematica == 2){
+  prompt('O resultado da sua subtração é '+(numero1 - numero2))
+}
+if(operacaoMatematica == 3){
+  prompt('O resultado da sua multiplicação é '+(numero1 * numero2))
+}
+if(operacaoMatematica == 4){
+  prompt('O resultado da sua divisão é '+(numero1 / numero2))
+}

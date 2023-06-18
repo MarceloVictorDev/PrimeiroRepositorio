@@ -1,0 +1,7 @@
+var aleatorio = Math.floor(Math.random() * 10);
+var numeroescolhido = parseInt(prompt('Insira um número aleatório entre 0 e 10 e tente adivinhar o número sorteado'))
+if(numeroescolhido == aleatorio){
+  console.log('Parabéns, você ganhou um beijo porquê acertou o número')
+  }
+else{
+  console.log('Errou, o número correto foi:' + aleatorio)}
